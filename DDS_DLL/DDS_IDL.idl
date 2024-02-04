@@ -1,0 +1,10 @@
+module DDS_DLL
+{
+	typedef sequence<char>charSeq;
+	@topic
+	struct DDS_BaseData
+	{
+		long lSize;
+		charSeq data;
+	};
+};
